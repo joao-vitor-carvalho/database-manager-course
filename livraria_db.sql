@@ -1,9 +1,9 @@
- show databases; /mostra todos os bancos de dados/
-use SYS; -- comando usado para usar o banco de dados -- 
+ show databases; 
+use SYS; 
 select database();
 show tables;
 
-/*MISSÃO: 
+/*
 1 - VISUALIZAR OS BANCOS DE DADOS
 2 - USAR O BANCO DE DADOS SYS
 3 - VERIFICAR SE O BANCO SYS ESTÁ SENDO UTILIZADO
@@ -17,16 +17,13 @@ select database();
 use db_Valdemir;
 show tables;
 
--- EXCLUIR O BANCO DE DADOS (DROP)
 drop database db_valdemir;
 
--- CRIAR O BANCO DE DADOS
 create database if not exists db_Livraria;
 use db_Livraria;
 select database();
 show tables;
 
--- CRIAR TABELAS
 create table tbl_Autores(
 	id_Autor smallint primary key,
     nome_Autor varchar(50),
