@@ -1,3 +1,5 @@
+-- Criação da tbl_empresa em alunos_notas e consultas; 
+
 CREATE TABLE Empresa(
 codempr varchar(6) not null,
 nome varchar(20),
@@ -5,8 +7,6 @@ endereco varchar(45),
 PRIMARY KEY(codempr)
 )
 ENGINE = MyISAM default charset = utf8;
-
-DROP TABLE empresa;
 
 SHOW TABLES;
 
