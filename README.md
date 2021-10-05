@@ -1,5 +1,3 @@
-# sql_repository_jvcb
-Repository in SQL
 
 # sql_repository_jvcb
 Repository in SQL
