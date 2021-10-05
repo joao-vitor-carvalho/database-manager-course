@@ -1,3 +1,5 @@
+-- Criação de tabelas com chave estrangeira; 
+
 SHOW databases;
 CREATE DATABASE IF NOT EXISTS DB_AULA31;
 USE DB_AULA31;
