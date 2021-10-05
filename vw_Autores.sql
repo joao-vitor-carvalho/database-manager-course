@@ -1,3 +1,5 @@
+-- Criação de views para tbl_Autores; 
+
 create view vwAutores as 
 select id_Autor as Codigo,
        nome_Autor as Autor,
