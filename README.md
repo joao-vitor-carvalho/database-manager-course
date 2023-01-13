@@ -1,5 +1,5 @@
 
-# sql_repository_jvcb
+# sql_repository
 Repository in SQL,
 some scripts in sql
 
